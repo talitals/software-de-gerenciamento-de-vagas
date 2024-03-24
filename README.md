@@ -1,4 +1,59 @@
-<h1>História de usuário para o usuário  do estacionamento</h1>
+<h1>Estacione bem</h1>
+<h2>Especificação de requisitos</h2>
+<b>1. Introdução</b><br><br>
+<b>1.1. Propósito do Documento de Requisitos</b>
+<p>Este documento descreve os requisitos para o desenvolvimento de um aplicativo de controle de estacionamento. O aplicativo visa facilitar a gestão e monitoramento dos espaços de estacionamento em um determinado local.
+</p>
+<b>1.2. Público Alvo</b>
+<p>Usuários que possuem veículos automotores.
+</p>
+<b>2. Descrição Geral do Produto</b>
+<p>O objetivo do software seria garantir ao estabelecimento segurança aos usuários, ofertando um lugar seguro, e sua funcionalidade seria: agendamento de horário, cadastramento de usuários, pagamento diários, mensal, e quinzenal, e o nosso público seria proprietário de veículos automotores, a necessidade de implementação seria agilidade ao escolher o local e segurança da implementação.</p>
+<b>2.1. Situação Atual</b>
+<p>Percebemos a necessidade de um sistema, devido a dificuldade de encontrar estacionamento capazes de dar um conforto ao usuário quanto a segurança, agilidade e confiabilidade e também a modalidade de reserva antecipada.</p>
+<b>2.2. Objetivos do Produto </b>
+<p>O software irá resolver a dificuldade de encontrar vagas próximas ao destino do usuário, trazendo assim a comodidade de reserva dentro do conforto de sua casa.</p>
+<b>2.3. Benefícios do Projeto </b>
+- Agendamento prévio;<br>
+- Conforto;<br>
+- Segurança;<br>
+- Praticidade;<br>
+- Pagamento pelo App;<br><br>
+<b>3. Requisitos Específicos</b><br><br>
+<b>3.1. Requisitos Funcionais</b><br>
+RF 01- Registro de Usuários: O sistema deve permitir que os usuários se cadastrem com nome, e-mail e senha.
+Deve haver opção para recuperação de senha.<br>
+RF 02- Reserva de Vagas: Os usuários devem poder visualizar a disponibilidade de vagas de estacionamento.
+Os usuários devem poder reservar uma vaga por um determinado período de tempo.
+As reservas devem ser confirmadas por e-mail.<br>
+RF 03- Check-in e Check-out: Os usuários devem poder fazer check-in ao ocupar uma vaga.
+Os usuários devem poder fazer check-out ao liberar uma vaga.
+O sistema deve calcular e registrar o tempo de permanência do veículo.<br>
+RF 04- Pagamento: O sistema deve calcular o valor do estacionamento com base no tempo de permanência.
+Os usuários devem poder realizar o pagamento através do aplicativo.
+Deve ser enviado um recibo por e-mail após o pagamento.<br>
+RF 05- Histórico de Estacionamento: Os usuários devem poder visualizar seu histórico de estacionamento e pagamentos.<br><br>
+<b>3.2. Requisitos Não Funcionais</b><br>
+RNF 01- Desempenho: O sistema deve ser capaz de lidar com um grande volume de usuários simultaneamente.
+O tempo de resposta do sistema deve ser rápido, especialmente durante o processo de reserva e pagamento.<br>
+RNF 02- Segurança:
+Todas as transações de pagamento devem ser seguras e criptografadas.
+O acesso às informações dos usuários deve ser restrito e protegido.<br>
+RNF 03- Usabilidade:
+A interface do aplicativo deve ser intuitiva e fácil de usar.
+O aplicativo deve ser responsivo e funcionar bem em dispositivos móveis.<br><br>
+<b>3.3. Regras de Negócio</b><br>
+RN 01- Tarifas de Estacionamento:
+A tarifa de estacionamento será calculada com base no tempo de permanência do veículo.
+O preço por hora será definido pela administração do estacionamento.<br>
+RN 02- Reservas e Cancelamentos:
+As reservas só serão válidas se forem confirmadas pelo usuário através do pagamento.
+Os usuários podem cancelar uma reserva até 15 minutos antes do horário de check-in.<br>
+RN 03- Responsabilidade do Usuário:
+Os usuários são responsáveis por garantir que as informações de seu veículo estejam corretas durante o check-in.
+Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
+
+<h2>História de usuário para o usuário  do estacionamento</h2>
 <ul>
   <h3>1) Registro de usuário</h3>
 <p><b>Como/Sendo:</b> usuário </p>
@@ -63,7 +118,7 @@
 
 </br>
 <hr>
-<h1>História de usuário para o proprietário do estacionamento</h1>
+<h2>História de usuário para o proprietário do estacionamento</h2>
 
 
 <h3>6) Acesso ao painel de controle</h3>
