@@ -23,15 +23,15 @@
 <b>3.1. Requisitos Funcionais</b><br>
 RF 01- Registro de Usuários: O sistema deve permitir que os usuários se cadastrem com nome, e-mail e senha.
 Deve haver opção para recuperação de senha.<br>
-RF 02- Reserva de Vagas: Os usuários devem poder visualizar a disponibilidade de vagas de estacionamento.
-Os usuários devem poder reservar uma vaga por um determinado período de tempo.
-As reservas devem ser confirmadas por e-mail.<br>
-RF 03- Check-in e Check-out: Os usuários devem poder fazer check-in ao ocupar uma vaga.
-Os usuários devem poder fazer check-out ao liberar uma vaga.
+RF 02- Reserva de Vagas: O sistema deverá permitir a visibilidade de vagas de estacionamento.
+O sistema deverá permitir a reserva de uma vaga por um determinado período de tempo.
+o sistema enviará e-mail de confirmação.<br>
+RF 03- Check-in e Check-out: O sistemas deve permitir fazer check-in ao ocupar uma vaga.
+O sistema deve permitir fazer check-out ao liberar uma vaga.
 O sistema deve calcular e registrar o tempo de permanência do veículo.<br>
 RF 04- Pagamento: O sistema deve calcular o valor do estacionamento com base no tempo de permanência.
-Os usuários devem poder realizar o pagamento através do aplicativo.
-Deve ser enviado um recibo por e-mail após o pagamento.<br>
+o sistema deverá permitir o pagamento através do aplicativo.
+o sistema enviará um recibo por e-mail após o pagamento.<br>
 RF 05- Histórico de Estacionamento: Os usuários devem poder visualizar seu histórico de estacionamento e pagamentos.<br><br>
 <b>3.2. Requisitos Não Funcionais</b><br>
 RNF 01- Desempenho: O sistema deve ser capaz de lidar com um grande volume de usuários simultaneamente.
