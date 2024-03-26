@@ -22,26 +22,24 @@
 <b>3. Requisitos Específicos</b><br><br>
 <b>3.1. Requisitos Funcionais</b><br>
 RF 01- Registro de Usuários: O sistema deve permitir que os usuários se cadastrem com nome, e-mail e senha.
-Deve haver opção para recuperação de senha.<br>
-RF 02- Reserva de Vagas: O sistema deverá permitir a visibilidade de vagas de estacionamento.
-O sistema deverá permitir a reserva de uma vaga por um determinado período de tempo.
-o sistema enviará e-mail de confirmação.<br>
-RF 03- Check-in e Check-out: O sistemas deve permitir fazer check-in ao ocupar uma vaga.
-O sistema deve permitir fazer check-out ao liberar uma vaga.
-O sistema deve calcular e registrar o tempo de permanência do veículo.<br>
-RF 04- Pagamento: O sistema deve calcular o valor do estacionamento com base no tempo de permanência.
-o sistema deverá permitir o pagamento através do aplicativo.
-o sistema enviará um recibo por e-mail após o pagamento.<br>
-RF 05- Histórico de Estacionamento: Os usuários devem poder visualizar seu histórico de estacionamento e pagamentos.<br><br>
+RF 02- Deve haver opção para recuperação de senha.<br>
+RF 03- Reserva de Vagas: O sistema deverá permitir a visibilidade de vagas de estacionamento.
+RF 04- O sistema deverá permitir a reserva de uma vaga por um determinado período de tempo.
+RF 05- o sistema enviará e-mail de confirmação.<br>
+RF 06- Check-in e Check-out: O sistemas deve permitir fazer check-in ao ocupar uma vaga.
+RF 07- O sistema deve permitir fazer check-out ao liberar uma vaga.
+RF 08- O sistema deve calcular e registrar o tempo de permanência do veículo.<br>
+RF 09- Pagamento: O sistema deve calcular o valor do estacionamento com base no tempo de permanência.
+RF 10- o sistema deverá permitir o pagamento através do aplicativo.
+RF 11- o sistema enviará um recibo por e-mail após o pagamento.<br>
+RF 12- Histórico de Estacionamento: Os usuários devem poder visualizar seu histórico de estacionamento e pagamentos.<br><br>
 <b>3.2. Requisitos Não Funcionais</b><br>
 RNF 01- Desempenho: O sistema deve ser capaz de lidar com um grande volume de usuários simultaneamente.
-O tempo de resposta do sistema deve ser rápido, especialmente durante o processo de reserva e pagamento.<br>
-RNF 02- Segurança:
-Todas as transações de pagamento devem ser seguras e criptografadas.
-O acesso às informações dos usuários deve ser restrito e protegido.<br>
-RNF 03- Usabilidade:
-A interface do aplicativo deve ser intuitiva e fácil de usar.
-O aplicativo deve ser responsivo e funcionar bem em dispositivos móveis.<br><br>
+RNF 02-O sistema deve ser rápido na resposta aos usuário, especialmente durante o processo de reserva e pagamento.<br>
+RNF 03- Segurança: o sistema deve usar transações seguras e criptografadas.
+RNF 04-O acesso às informações dos usuários deve ser restrito e protegido.<br>
+RNF 05- Usabilidade: o sistema deve ter interface do aplicativo intuitiva e fácil de usar.
+RNF 06-O sistema deve ser responsivo e funcionar bem em dispositivos móveis.<br><br>
 <b>3.3. Regras de Negócio</b><br>
 RN 01- Tarifas de Estacionamento:
 A tarifa de estacionamento será calculada com base no tempo de permanência do veículo.
