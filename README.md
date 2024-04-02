@@ -41,7 +41,7 @@ RNF 04-O Criptografia: O sitema deve manter informações dos usuários restrito
 RNF 05- Usabilidade: o sistema deve ter interface do aplicativo intuitiva e fácil de usar.<br>
 RNF 06-Responsividade: O sistema deve ser responsivo e funcionar bem em dispositivos móveis.<br><br>
 <b>3.3. Regras de Negócio</b><br>
-RN 01- Tarifas de Estacionamento: o sistema deverá calcular a tarifa de estacionamento base no tempo de permanência do veículo.
+RN 01- Tarifas de Estacionamento: o sistema deverá calcular a tarifa de estacionamento base no tempo de permanência do veículo por 1h com tolerância de 5 min para atrasos.
 O preço por hora será definido pela administração do estacionamento.<br>
 RN 02- Reservas e Cancelamentos:
 As reservas só serão válidas se forem confirmadas pelo usuário através do pagamento.
