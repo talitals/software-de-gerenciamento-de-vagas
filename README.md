@@ -56,6 +56,7 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 <p><b>Como/Sendo:</b> usuário </p>
 <p><b>Quero/Posso:</b> me cadastrar no aplicativo fornecendo meu nome, e-mail e senha </p>
 <p><b>Para:</b> utilizar os serviços de reserva de vagas de estacionamento </p></br>
+<p></Grau de complexidade:dificil &#128557;p> 
   
 <h3>Cenário de aceitação:</h3>
 
