@@ -185,6 +185,59 @@ Os usuários devem respeitar as regras e regulamentos do estacionamento.<br><hr>
 
 <p>Grau de complexidade &#128557;</p> 
 
+<h3>Tabela de Duração e Prioridade</h3>
+<table>
+  <thead>
+    <tr>
+      <td></td>
+      <th>Grau de Prioridade</th>
+      <th>Duração</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1) Registro de usuário</td>
+      <td>Alta</td>
+      <td>1 dia</td>
+    </tr>
+    <tr>
+      <td>2) Reserva de vagas de estacionamento</td>
+      <td>Alta</td>
+      <td>2 dias</td>
+    </tr>
+    <tr>
+      <td>3) Check-in no estacionamento</td>
+      <td>Baixa</td>
+      <td>1 dia</td>
+    </tr>
+    <tr>
+      <td>4) Check-out no estacionamento</td>
+      <td>Baixa</td>
+      <td>1 dia</td>
+    </tr>
+    <tr>
+      <td>5) Pagamento pelo estacionamento</td>
+      <td>Alta</td>
+      <td>3 dias</td>
+    </tr>
+    <tr>
+      <td>6) Acesso ao painel de controle</td>
+      <td>Alta</td>
+      <td>3 dias</td>
+    </tr>
+    <tr>
+      <td>7) Acesso as tarifas no painel de controle</td>
+      <td>Média</td>
+      <td>2 dias</td>
+    </tr>
+    <tr>
+      <td>8) Acesso aos relatórios de utilização do estacionamento</td>
+      <td>Média</td>
+      <td>2 dias</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2>MAPA DE REQUISITOS</h2>
 
 <h3>Gerenciamento</h3>
